@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1193FE98A16DA4C6C89E92F3 /* Pods_ShopifyMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7C73DB64E1081F670C2A63 /* Pods_ShopifyMerchant.framework */; };
+		AC7F6DB044A9625278508460 /* Pods_ShopifyMerchantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F205029A3BDDE8CD24C5B1FE /* Pods_ShopifyMerchantTests.framework */; };
+		CD16F4161FFC5266000BEA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4151FFC5266000BEA0A /* AppDelegate.swift */; };
+		CD16F4181FFC5266000BEA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4171FFC5266000BEA0A /* ViewController.swift */; };
+		CD16F41B1FFC5266000BEA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16F4191FFC5266000BEA0A /* Main.storyboard */; };
+		CD16F41D1FFC5266000BEA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD16F41C1FFC5266000BEA0A /* Assets.xcassets */; };
+		CD16F4201FFC5266000BEA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16F41E1FFC5266000BEA0A /* LaunchScreen.storyboard */; };
+		CD16F42B1FFC5266000BEA0A /* ShopifyMerchantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F42A1FFC5266000BEA0A /* ShopifyMerchantTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD16F4271FFC5266000BEA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD16F40A1FFC5266000BEA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD16F4111FFC5266000BEA0A;
+			remoteInfo = ShopifyMerchant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51FE10028E8A512E2D77D80F /* Pods-ShopifyMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyMerchant.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopifyMerchant/Pods-ShopifyMerchant.release.xcconfig"; sourceTree = "<group>"; };
+		5D3E121844D1965BA5F5E372 /* Pods-ShopifyMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyMerchant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopifyMerchant/Pods-ShopifyMerchant.debug.xcconfig"; sourceTree = "<group>"; };
+		954FC48AAEA4D91ECB0B6906 /* Pods-ShopifyMerchantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyMerchantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopifyMerchantTests/Pods-ShopifyMerchantTests.release.xcconfig"; sourceTree = "<group>"; };
+		B52197137966F415A270F760 /* Pods-ShopifyMerchantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyMerchantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopifyMerchantTests/Pods-ShopifyMerchantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD16F4121FFC5266000BEA0A /* ShopifyMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopifyMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD16F4151FFC5266000BEA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD16F4171FFC5266000BEA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD16F41A1FFC5266000BEA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD16F41C1FFC5266000BEA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD16F41F1FFC5266000BEA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD16F4211FFC5266000BEA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD16F4261FFC5266000BEA0A /* ShopifyMerchantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopifyMerchantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD16F42A1FFC5266000BEA0A /* ShopifyMerchantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopifyMerchantTests.swift; sourceTree = "<group>"; };
+		CD16F42C1FFC5266000BEA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7C73DB64E1081F670C2A63 /* Pods_ShopifyMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F205029A3BDDE8CD24C5B1FE /* Pods_ShopifyMerchantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyMerchantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD16F40F1FFC5266000BEA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1193FE98A16DA4C6C89E92F3 /* Pods_ShopifyMerchant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16F4231FFC5266000BEA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7F6DB044A9625278508460 /* Pods_ShopifyMerchantTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95B9C168D0EA091729DF3384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D3E121844D1965BA5F5E372 /* Pods-ShopifyMerchant.debug.xcconfig */,
+				51FE10028E8A512E2D77D80F /* Pods-ShopifyMerchant.release.xcconfig */,
+				B52197137966F415A270F760 /* Pods-ShopifyMerchantTests.debug.xcconfig */,
+				954FC48AAEA4D91ECB0B6906 /* Pods-ShopifyMerchantTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD16F4091FFC5266000BEA0A = {
+			isa = PBXGroup;
+			children = (
+				CD16F4141FFC5266000BEA0A /* ShopifyMerchant */,
+				CD16F4291FFC5266000BEA0A /* ShopifyMerchantTests */,
+				CD16F4131FFC5266000BEA0A /* Products */,
+				95B9C168D0EA091729DF3384 /* Pods */,
+				F117969932E7140B7FE19046 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD16F4131FFC5266000BEA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD16F4121FFC5266000BEA0A /* ShopifyMerchant.app */,
+				CD16F4261FFC5266000BEA0A /* ShopifyMerchantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD16F4141FFC5266000BEA0A /* ShopifyMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				CD16F4151FFC5266000BEA0A /* AppDelegate.swift */,
+				CD16F4171FFC5266000BEA0A /* ViewController.swift */,
+				CD16F4191FFC5266000BEA0A /* Main.storyboard */,
+				CD16F41C1FFC5266000BEA0A /* Assets.xcassets */,
+				CD16F41E1FFC5266000BEA0A /* LaunchScreen.storyboard */,
+				CD16F4211FFC5266000BEA0A /* Info.plist */,
+			);
+			path = ShopifyMerchant;
+			sourceTree = "<group>";
+		};
+		CD16F4291FFC5266000BEA0A /* ShopifyMerchantTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD16F42A1FFC5266000BEA0A /* ShopifyMerchantTests.swift */,
+				CD16F42C1FFC5266000BEA0A /* Info.plist */,
+			);
+			path = ShopifyMerchantTests;
+			sourceTree = "<group>";
+		};
+		F117969932E7140B7FE19046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7C73DB64E1081F670C2A63 /* Pods_ShopifyMerchant.framework */,
+				F205029A3BDDE8CD24C5B1FE /* Pods_ShopifyMerchantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD16F4111FFC5266000BEA0A /* ShopifyMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD16F42F1FFC5266000BEA0A /* Build configuration list for PBXNativeTarget "ShopifyMerchant" */;
+			buildPhases = (
+				55C6F6B798C8FECA0BE8DBAA /* [CP] Check Pods Manifest.lock */,
+				CD16F40E1FFC5266000BEA0A /* Sources */,
+				CD16F40F1FFC5266000BEA0A /* Frameworks */,
+				CD16F4101FFC5266000BEA0A /* Resources */,
+				9265C0C454482538427E5501 /* [CP] Embed Pods Frameworks */,
+				1E59C157E9E7BBABB9266505 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopifyMerchant;
+			productName = ShopifyMerchant;
+			productReference = CD16F4121FFC5266000BEA0A /* ShopifyMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD16F4251FFC5266000BEA0A /* ShopifyMerchantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD16F4321FFC5266000BEA0A /* Build configuration list for PBXNativeTarget "ShopifyMerchantTests" */;
+			buildPhases = (
+				9B3029F31CE1067AE1039335 /* [CP] Check Pods Manifest.lock */,
+				CD16F4221FFC5266000BEA0A /* Sources */,
+				CD16F4231FFC5266000BEA0A /* Frameworks */,
+				CD16F4241FFC5266000BEA0A /* Resources */,
+				2D701875E3482866DB7076C1 /* [CP] Embed Pods Frameworks */,
+				DBE5960338BB6E368BAAE4EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD16F4281FFC5266000BEA0A /* PBXTargetDependency */,
+			);
+			name = ShopifyMerchantTests;
+			productName = ShopifyMerchantTests;
+			productReference = CD16F4261FFC5266000BEA0A /* ShopifyMerchantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD16F40A1FFC5266000BEA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "June Ha";
+				TargetAttributes = {
+					CD16F4111FFC5266000BEA0A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD16F4251FFC5266000BEA0A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD16F4111FFC5266000BEA0A;
+					};
+				};
+			};
+			buildConfigurationList = CD16F40D1FFC5266000BEA0A /* Build configuration list for PBXProject "ShopifyMerchant" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD16F4091FFC5266000BEA0A;
+			productRefGroup = CD16F4131FFC5266000BEA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD16F4111FFC5266000BEA0A /* ShopifyMerchant */,
+				CD16F4251FFC5266000BEA0A /* ShopifyMerchantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD16F4101FFC5266000BEA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16F4201FFC5266000BEA0A /* LaunchScreen.storyboard in Resources */,
+				CD16F41D1FFC5266000BEA0A /* Assets.xcassets in Resources */,
+				CD16F41B1FFC5266000BEA0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16F4241FFC5266000BEA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E59C157E9E7BBABB9266505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShopifyMerchant/Pods-ShopifyMerchant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D701875E3482866DB7076C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShopifyMerchantTests/Pods-ShopifyMerchantTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxReachability/RxReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShopifyMerchantTests/Pods-ShopifyMerchantTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C6F6B798C8FECA0BE8DBAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopifyMerchant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9265C0C454482538427E5501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShopifyMerchant/Pods-ShopifyMerchant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxReachability/RxReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShopifyMerchant/Pods-ShopifyMerchant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3029F31CE1067AE1039335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopifyMerchantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE5960338BB6E368BAAE4EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShopifyMerchantTests/Pods-ShopifyMerchantTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD16F40E1FFC5266000BEA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16F4181FFC5266000BEA0A /* ViewController.swift in Sources */,
+				CD16F4161FFC5266000BEA0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16F4221FFC5266000BEA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16F42B1FFC5266000BEA0A /* ShopifyMerchantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD16F4281FFC5266000BEA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD16F4111FFC5266000BEA0A /* ShopifyMerchant */;
+			targetProxy = CD16F4271FFC5266000BEA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD16F4191FFC5266000BEA0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD16F41A1FFC5266000BEA0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD16F41E1FFC5266000BEA0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD16F41F1FFC5266000BEA0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD16F42D1FFC5266000BEA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD16F42E1FFC5266000BEA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD16F4301FFC5266000BEA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3E121844D1965BA5F5E372 /* Pods-ShopifyMerchant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7937NG5F6A;
+				INFOPLIST_FILE = ShopifyMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD16F4311FFC5266000BEA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FE10028E8A512E2D77D80F /* Pods-ShopifyMerchant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7937NG5F6A;
+				INFOPLIST_FILE = ShopifyMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD16F4331FFC5266000BEA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52197137966F415A270F760 /* Pods-ShopifyMerchantTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7937NG5F6A;
+				INFOPLIST_FILE = ShopifyMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopifyMerchant.app/ShopifyMerchant";
+			};
+			name = Debug;
+		};
+		CD16F4341FFC5266000BEA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954FC48AAEA4D91ECB0B6906 /* Pods-ShopifyMerchantTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7937NG5F6A;
+				INFOPLIST_FILE = ShopifyMerchantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopifyMerchant.app/ShopifyMerchant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD16F40D1FFC5266000BEA0A /* Build configuration list for PBXProject "ShopifyMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16F42D1FFC5266000BEA0A /* Debug */,
+				CD16F42E1FFC5266000BEA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD16F42F1FFC5266000BEA0A /* Build configuration list for PBXNativeTarget "ShopifyMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16F4301FFC5266000BEA0A /* Debug */,
+				CD16F4311FFC5266000BEA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD16F4321FFC5266000BEA0A /* Build configuration list for PBXNativeTarget "ShopifyMerchantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16F4331FFC5266000BEA0A /* Debug */,
+				CD16F4341FFC5266000BEA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD16F40A1FFC5266000BEA0A /* Project object */;
+}
