@@ -15,6 +15,18 @@
 		CD16F41D1FFC5266000BEA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD16F41C1FFC5266000BEA0A /* Assets.xcassets */; };
 		CD16F4201FFC5266000BEA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16F41E1FFC5266000BEA0A /* LaunchScreen.storyboard */; };
 		CD16F42B1FFC5266000BEA0A /* ShopifyMerchantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F42A1FFC5266000BEA0A /* ShopifyMerchantTests.swift */; };
+		CD16F4361FFDD63C000BEA0A /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4351FFDD63C000BEA0A /* ProductsViewController.swift */; };
+		CD16F4371FFDD63C000BEA0A /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4351FFDD63C000BEA0A /* ProductsViewController.swift */; };
+		CD16F4391FFDD65A000BEA0A /* Products.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16F4381FFDD65A000BEA0A /* Products.storyboard */; };
+		CD16F43A1FFDD65A000BEA0A /* Products.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16F4381FFDD65A000BEA0A /* Products.storyboard */; };
+		CD16F43C1FFDDF1B000BEA0A /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F43B1FFDDF1B000BEA0A /* ProductTableViewCell.swift */; };
+		CD16F43D1FFDDF1B000BEA0A /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F43B1FFDDF1B000BEA0A /* ProductTableViewCell.swift */; };
+		CD16F43F1FFDE4AE000BEA0A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F43E1FFDE4AE000BEA0A /* Product.swift */; };
+		CD16F4401FFDE4AE000BEA0A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F43E1FFDE4AE000BEA0A /* Product.swift */; };
+		CD16F4501FFDF921000BEA0A /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F44F1FFDF921000BEA0A /* ProductsViewModel.swift */; };
+		CD16F4511FFDF921000BEA0A /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F44F1FFDF921000BEA0A /* ProductsViewModel.swift */; };
+		CD16F4531FFE0543000BEA0A /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4521FFE0543000BEA0A /* JSONMappable.swift */; };
+		CD16F4541FFE0543000BEA0A /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4521FFE0543000BEA0A /* JSONMappable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +54,12 @@
 		CD16F4261FFC5266000BEA0A /* ShopifyMerchantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopifyMerchantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD16F42A1FFC5266000BEA0A /* ShopifyMerchantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopifyMerchantTests.swift; sourceTree = "<group>"; };
 		CD16F42C1FFC5266000BEA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD16F4351FFDD63C000BEA0A /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		CD16F4381FFDD65A000BEA0A /* Products.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Products.storyboard; sourceTree = "<group>"; };
+		CD16F43B1FFDDF1B000BEA0A /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		CD16F43E1FFDE4AE000BEA0A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CD16F44F1FFDF921000BEA0A /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		CD16F4521FFE0543000BEA0A /* JSONMappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMappable.swift; sourceTree = "<group>"; };
 		EA7C73DB64E1081F670C2A63 /* Pods_ShopifyMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F205029A3BDDE8CD24C5B1FE /* Pods_ShopifyMerchantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyMerchantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +124,12 @@
 				CD16F41C1FFC5266000BEA0A /* Assets.xcassets */,
 				CD16F41E1FFC5266000BEA0A /* LaunchScreen.storyboard */,
 				CD16F4211FFC5266000BEA0A /* Info.plist */,
+				CD16F4351FFDD63C000BEA0A /* ProductsViewController.swift */,
+				CD16F4381FFDD65A000BEA0A /* Products.storyboard */,
+				CD16F43B1FFDDF1B000BEA0A /* ProductTableViewCell.swift */,
+				CD16F43E1FFDE4AE000BEA0A /* Product.swift */,
+				CD16F44F1FFDF921000BEA0A /* ProductsViewModel.swift */,
+				CD16F4521FFE0543000BEA0A /* JSONMappable.swift */,
 			);
 			path = ShopifyMerchant;
 			sourceTree = "<group>";
@@ -219,6 +243,7 @@
 			files = (
 				CD16F4201FFC5266000BEA0A /* LaunchScreen.storyboard in Resources */,
 				CD16F41D1FFC5266000BEA0A /* Assets.xcassets in Resources */,
+				CD16F4391FFDD65A000BEA0A /* Products.storyboard in Resources */,
 				CD16F41B1FFC5266000BEA0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD16F43A1FFDD65A000BEA0A /* Products.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +404,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD16F4501FFDF921000BEA0A /* ProductsViewModel.swift in Sources */,
+				CD16F4531FFE0543000BEA0A /* JSONMappable.swift in Sources */,
+				CD16F4361FFDD63C000BEA0A /* ProductsViewController.swift in Sources */,
+				CD16F43C1FFDDF1B000BEA0A /* ProductTableViewCell.swift in Sources */,
+				CD16F43F1FFDE4AE000BEA0A /* Product.swift in Sources */,
 				CD16F4181FFC5266000BEA0A /* ViewController.swift in Sources */,
 				CD16F4161FFC5266000BEA0A /* AppDelegate.swift in Sources */,
 			);
@@ -387,7 +418,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD16F4371FFDD63C000BEA0A /* ProductsViewController.swift in Sources */,
+				CD16F4401FFDE4AE000BEA0A /* Product.swift in Sources */,
 				CD16F42B1FFC5266000BEA0A /* ShopifyMerchantTests.swift in Sources */,
+				CD16F4511FFDF921000BEA0A /* ProductsViewModel.swift in Sources */,
+				CD16F43D1FFDDF1B000BEA0A /* ProductTableViewCell.swift in Sources */,
+				CD16F4541FFE0543000BEA0A /* JSONMappable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +575,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -555,7 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -572,7 +608,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchantTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopifyMerchant.app/ShopifyMerchant";
 			};
@@ -590,7 +626,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juneha.ShopifyMerchantTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopifyMerchant.app/ShopifyMerchant";
 			};
