@@ -52,14 +52,26 @@ class ProductsViewController: UIViewController {
     
     private func bindToViewModel() {
         
+        self.tableView.rx.itemSelected
+            .subscribe(onNext: { [weak self] (indexPath) in
+                self?.viewModel.productCellSelected(withIndexPath: indexPath)
+            })
+            .addDisposableTo(disposeBag)
+        
         self.viewModel
             .products
             .bind(to: self.tableView.rx.items(dataSource: self.dataSource))
             .addDisposableTo(disposeBag)
         
+        self.viewModel
+            .segueToProductDetailsScreen
+            .subscribe(onNext: { [weak self] (product) in
+                let vc = ProductDetailViewController.configuredWith(product: product)
+                self?.navigationController?.pushViewController(vc, animated: true)
+            })
+            .addDisposableTo(disposeBag)
+        
     }
-    
-    
 
 }
 
