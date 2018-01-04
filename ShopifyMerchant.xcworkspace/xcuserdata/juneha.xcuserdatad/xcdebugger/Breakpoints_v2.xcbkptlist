@@ -65,38 +65,6 @@
             endingLineNumber = "60"
             landmarkName = "setupTableViewDataSource(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShopifyMerchant.ProductsViewController.(setupTableViewDataSource in _111D3EF6CB78A4863A94C9788E405047)(RxDataSources.RxTableViewSectionedReloadDataSource&lt;ShopifyMerchant.ProductSectionModel&gt;) -&gt; ()"
-                  moduleName = "ShopifyMerchant"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/juneha/shopify-merchant/ShopifyMerchant/ProductsViewController.swift"
-                  timestampString = "536744328.979465"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RxDataSources.TableViewSectionedDataSource&lt;ShopifyMerchant.ProductSectionModel&gt;, __ObjC.UITableView, Foundation.IndexPath, ShopifyMerchant.Product) -&gt; __ObjC.UITableViewCell in ShopifyMerchant.ProductsViewController.(setupTableViewDataSource in _111D3EF6CB78A4863A94C9788E405047)(RxDataSources.RxTableViewSectionedReloadDataSource&lt;ShopifyMerchant.ProductSectionModel&gt;) -&gt; ()"
-                  moduleName = "ShopifyMerchant"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/juneha/shopify-merchant/ShopifyMerchant/ProductsViewController.swift"
-                  timestampString = "536744328.981253"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "42">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

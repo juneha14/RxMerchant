@@ -11,16 +11,17 @@ import RxSwift
 import RxCocoa
 import Moya
 
-
 class ProductsViewModel {
     
     let products: Observable<[ProductSectionModel]>
+    let segueToProductDetailsScreen: Observable<Product>
     
     fileprivate let productsProvider: RxMoyaProvider<Products> = ProductProvider
     
     
     init() {
         let productsProvider = self.productsProvider
+        let productsVariable: Variable<[ProductSectionModel]> = Variable([])
         
         
         self.products = self.viewDidLoadSubject.asObservable()
@@ -31,8 +32,16 @@ class ProductsViewModel {
                     .map({ (products) -> [ProductSectionModel] in
                         return [ProductSectionModel(header: nil, items: products)]
                     })
+                    .do(onNext: { (products) in
+                        productsVariable.value = products
+                    })
                     .shareReplay(1)
-        }
+            }
+        
+        self.segueToProductDetailsScreen = self.productCellSelectedSubject.asObservable()
+            .map { (indexPath) -> Product in
+                return productsVariable.value[indexPath.section].items[indexPath.row]
+            }
         
         
     }
@@ -41,6 +50,11 @@ class ProductsViewModel {
     fileprivate let viewDidLoadSubject = PublishSubject<Void>()
     func viewDidLoad() {
         self.viewDidLoadSubject.onNext(())
+    }
+    
+    fileprivate let productCellSelectedSubject = PublishSubject<IndexPath>()
+    func productCellSelected(withIndexPath indexPath: IndexPath) {
+        self.productCellSelectedSubject.onNext(indexPath)
     }
     
 }
