@@ -36,6 +36,12 @@
 		CD16F4641FFE1B4D000BEA0A /* ProductTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4621FFE1B4D000BEA0A /* ProductTableViewCellViewModel.swift */; };
 		CD16F4661FFE1B95000BEA0A /* JSONMappable+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4651FFE1B95000BEA0A /* JSONMappable+Rx.swift */; };
 		CD16F4671FFE1B95000BEA0A /* JSONMappable+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4651FFE1B95000BEA0A /* JSONMappable+Rx.swift */; };
+		CD16F4691FFE1F66000BEA0A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4681FFE1F66000BEA0A /* NavigationController.swift */; };
+		CD16F46A1FFE1F66000BEA0A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F4681FFE1F66000BEA0A /* NavigationController.swift */; };
+		CD16F46C1FFE1FDC000BEA0A /* ProductSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F46B1FFE1FDC000BEA0A /* ProductSectionModel.swift */; };
+		CD16F46D1FFE1FDC000BEA0A /* ProductSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F46B1FFE1FDC000BEA0A /* ProductSectionModel.swift */; };
+		CD16F46F1FFE2025000BEA0A /* ProductProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F46E1FFE2025000BEA0A /* ProductProvider.swift */; };
+		CD16F4701FFE2025000BEA0A /* ProductProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16F46E1FFE2025000BEA0A /* ProductProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,9 @@
 		CD16F45F1FFE1AC7000BEA0A /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		CD16F4621FFE1B4D000BEA0A /* ProductTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		CD16F4651FFE1B95000BEA0A /* JSONMappable+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONMappable+Rx.swift"; sourceTree = "<group>"; };
+		CD16F4681FFE1F66000BEA0A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		CD16F46B1FFE1FDC000BEA0A /* ProductSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSectionModel.swift; sourceTree = "<group>"; };
+		CD16F46E1FFE2025000BEA0A /* ProductProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductProvider.swift; sourceTree = "<group>"; };
 		EA7C73DB64E1081F670C2A63 /* Pods_ShopifyMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F205029A3BDDE8CD24C5B1FE /* Pods_ShopifyMerchantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyMerchantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,6 +177,7 @@
 				CD16F4381FFDD65A000BEA0A /* Products.storyboard */,
 				CD16F4351FFDD63C000BEA0A /* ProductsViewController.swift */,
 				CD16F43B1FFDDF1B000BEA0A /* ProductTableViewCell.swift */,
+				CD16F4681FFE1F66000BEA0A /* NavigationController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +188,7 @@
 				CD16F45F1FFE1AC7000BEA0A /* Image.swift */,
 				CD16F45C1FFE1ABF000BEA0A /* Option.swift */,
 				CD16F43E1FFDE4AE000BEA0A /* Product.swift */,
+				CD16F46B1FFE1FDC000BEA0A /* ProductSectionModel.swift */,
 				CD16F4591FFE1AAE000BEA0A /* Variant.swift */,
 			);
 			path = Models;
@@ -188,6 +199,7 @@
 			children = (
 				CD16F4521FFE0543000BEA0A /* JSONMappable.swift */,
 				CD16F4651FFE1B95000BEA0A /* JSONMappable+Rx.swift */,
+				CD16F46E1FFE2025000BEA0A /* ProductProvider.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -454,13 +466,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD16F4631FFE1B4D000BEA0A /* ProductTableViewCellViewModel.swift in Sources */,
+				CD16F4691FFE1F66000BEA0A /* NavigationController.swift in Sources */,
 				CD16F45D1FFE1ABF000BEA0A /* Option.swift in Sources */,
 				CD16F4601FFE1AC7000BEA0A /* Image.swift in Sources */,
+				CD16F46F1FFE2025000BEA0A /* ProductProvider.swift in Sources */,
 				CD16F4501FFDF921000BEA0A /* ProductsViewModel.swift in Sources */,
 				CD16F4531FFE0543000BEA0A /* JSONMappable.swift in Sources */,
 				CD16F4361FFDD63C000BEA0A /* ProductsViewController.swift in Sources */,
 				CD16F43C1FFDDF1B000BEA0A /* ProductTableViewCell.swift in Sources */,
 				CD16F4661FFE1B95000BEA0A /* JSONMappable+Rx.swift in Sources */,
+				CD16F46C1FFE1FDC000BEA0A /* ProductSectionModel.swift in Sources */,
 				CD16F43F1FFDE4AE000BEA0A /* Product.swift in Sources */,
 				CD16F45A1FFE1AAF000BEA0A /* Variant.swift in Sources */,
 				CD16F4161FFC5266000BEA0A /* AppDelegate.swift in Sources */,
@@ -472,13 +487,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD16F4641FFE1B4D000BEA0A /* ProductTableViewCellViewModel.swift in Sources */,
+				CD16F46A1FFE1F66000BEA0A /* NavigationController.swift in Sources */,
 				CD16F45E1FFE1ABF000BEA0A /* Option.swift in Sources */,
 				CD16F4611FFE1AC7000BEA0A /* Image.swift in Sources */,
+				CD16F4701FFE2025000BEA0A /* ProductProvider.swift in Sources */,
 				CD16F4371FFDD63C000BEA0A /* ProductsViewController.swift in Sources */,
 				CD16F4401FFDE4AE000BEA0A /* Product.swift in Sources */,
 				CD16F42B1FFC5266000BEA0A /* ShopifyMerchantTests.swift in Sources */,
 				CD16F4511FFDF921000BEA0A /* ProductsViewModel.swift in Sources */,
 				CD16F4671FFE1B95000BEA0A /* JSONMappable+Rx.swift in Sources */,
+				CD16F46D1FFE1FDC000BEA0A /* ProductSectionModel.swift in Sources */,
 				CD16F43D1FFDDF1B000BEA0A /* ProductTableViewCell.swift in Sources */,
 				CD16F45B1FFE1AAF000BEA0A /* Variant.swift in Sources */,
 				CD16F4541FFE0543000BEA0A /* JSONMappable.swift in Sources */,

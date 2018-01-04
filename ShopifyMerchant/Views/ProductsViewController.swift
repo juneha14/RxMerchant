@@ -12,20 +12,6 @@ import RxCocoa
 import RxDataSources
 import SDWebImage
 
-struct ProductSectionModel {
-    var header: String?
-    var items: [Item]
-}
-
-extension ProductSectionModel: SectionModelType {
-    typealias Item = Product
-    
-    init(original: ProductSectionModel, items: [Item]) {
-        self = original
-        self.items = items
-    }
-}
-
 class ProductsViewController: UIViewController {
     fileprivate let viewModel = ProductsViewModel()
     fileprivate var dataSource = RxTableViewSectionedReloadDataSource<ProductSectionModel>()

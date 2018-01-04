@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         
         let vc = ProductsViewController.instantiate()
-        window?.rootViewController = vc
+        let navVC = NavigationController(rootViewController: vc)
+        window?.rootViewController = navVC
         window?.makeKeyAndVisible()
         return true
     }
